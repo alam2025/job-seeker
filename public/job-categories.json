@@ -1,0 +1,22 @@
+[
+      {
+            "name": "Account & Finance",
+            "picture": "https://ibb.co/RQLj31d",
+            "total_jobs": 150
+      },
+      {
+            "name": "Creative Design",
+            "picture": "https://ibb.co/mD7C1Kh",
+            "total_jobs": 80
+      },
+      {
+            "name": "Marketing & Sales",
+            "picture": "https://ibb.co/Xbc9yk1",
+            "total_jobs": 250
+      },
+      {
+            "name": "Engineering Job",
+            "picture": "https://ibb.co/mGMrQKN",
+            "total_jobs": 300
+      }
+]
