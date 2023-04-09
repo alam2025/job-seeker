@@ -1,22 +1,22 @@
 [
       {
             "name": "Account & Finance",
-            "picture": "https://ibb.co/RQLj31d",
+            "picture": "https://i.postimg.cc/J4hFNSNg/accounts-1.png",
             "total_jobs": 150
       },
       {
             "name": "Creative Design",
-            "picture": "https://ibb.co/mD7C1Kh",
+            "picture": "https://i.postimg.cc/266Wcd0z/business-1.png",
             "total_jobs": 80
       },
       {
             "name": "Marketing & Sales",
-            "picture": "https://ibb.co/Xbc9yk1",
+            "picture": "https://i.postimg.cc/qvvCMxd2/social-media-1.png",
             "total_jobs": 250
       },
       {
             "name": "Engineering Job",
-            "picture": "https://ibb.co/mGMrQKN",
+            "picture": "https://i.postimg.cc/Vstq3gY6/chip-1.png",
             "total_jobs": 300
       }
 ]
