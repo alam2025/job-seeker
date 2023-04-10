@@ -1,0 +1,362 @@
+[
+      {
+            "id": 1,
+            "company_logo": "https://i.postimg.cc/vHbrSgqg/download-removebg-preview.png",
+            "job_title": "Web Developer",
+            "company_name": "ABC Company",
+            "remote_or_onsite": "Remote",
+            "location": "Anywhere",
+            "fulltime_or_parttime": "Full-time",
+            "salary": "$80,000 - $100,000",
+            "job_description": "We are looking for a skilled web developer to join our team...",
+            "job_responsibility": "- Develop new features and improve existing ones...",
+            "educational_requirements": "Bachelor's degree in Computer Science or related field",
+            "experiences": "3+ years of experience in web development",
+            "contact_information": {
+                  "phone": "555-555-5555",
+                  "email": "jobs@abccompany.com"
+            }
+      },
+      {
+            "id": 2,
+            "company_logo": "https://i.postimg.cc/BQFnfXds/xyz-removebg-preview.png",
+            "job_title": "Marketing Manager",
+            "company_name": "XYZ Corporation",
+            "remote_or_onsite": "Onsite",
+            "location": "New York City, NY",
+            "fulltime_or_parttime": "Full-time",
+            "salary": "$90,000 - $110,000",
+            "job_description": "We are seeking a talented marketing manager to lead our team...",
+            "job_responsibility": "- Develop and execute marketing strategies...",
+            "educational_requirements": "Bachelor's degree in Marketing or related field",
+            "experiences": "5+ years of experience in marketing",
+            "contact_information": {
+                  "phone": "555-555-5555",
+                  "email": "jobs@xyzcorp.com"
+            }
+      },
+      {
+            "id": 3,
+            "company_logo": "https://i.postimg.cc/kXPCr9Kt/acme-removebg-preview.png",
+            "job_title": "Data Scientist",
+            "company_name": "Acme Analytics",
+            "remote_or_onsite": "Remote",
+            "location": "Anywhere",
+            "fulltime_or_parttime": "Full-time",
+            "salary": "$100,000 - $120,000",
+            "job_description": "We are looking for an experienced data scientist to join our team...",
+            "job_responsibility": "- Analyze and interpret complex data sets...",
+            "educational_requirements": "Master's degree in Data Science or related field",
+            "experiences": "7+ years of experience in data analysis",
+            "contact_information": {
+                  "phone": "555-555-5555",
+                  "email": "jobs@acmeanalytics.com"
+            }
+      },
+      {
+            "id": 4,
+            "company_logo": "https://i.postimg.cc/bdfp3fHk/design-co-removebg-preview.png",
+            "job_title": "Graphic Designer",
+            "company_name": "Design Co.",
+            "remote_or_onsite": "Onsite",
+            "location": "Los Angeles, CA",
+            "fulltime_or_parttime": "Full-time",
+            "salary": "$60,000 - $80,000",
+            "job_description": "We are seeking a creative and talented graphic designer...",
+            "job_responsibility": "- Develop creative and innovative design concepts...",
+            "educational_requirements": "Bachelor's degree in Graphic Design or related field",
+            "experiences": "3+ years of experience in graphic design",
+            "contact_information": {
+                  "phone": "555-555-5555",
+                  "email": "jobs@designco.com"
+            }
+      },
+      {
+            "id": 5,
+            "company_logo": "https://i.postimg.cc/W1CLnvN3/global-sales-removebg-preview.png",
+            "job_title": "Sales Representative",
+            "company_name": "Global Sales",
+            "remote_or_onsite": "Remote",
+            "location": "Anywhere",
+            "fulltime_or_parttime": "Full-time",
+            "salary": "$50,000 - $70,000",
+            "job_description": "We are looking for a motivated sales representative to join our team...",
+            "job_responsibility": "- Develop and maintain relationships with clients...",
+            "educational_requirements": "Bachelor's degree in Business or related field",
+            "experiences": "2+ years of experience in sales",
+            "contact_information": {
+                  "phone": "555-555-5555",
+                  "email": "jobs@globalsales.com"
+            }
+      },
+      {
+            "id": 6,
+            "company_logo": "https://i.postimg.cc/g00FyH6Y/softawere-co-removebg-preview.png",
+            "job_title": "Software Engineer",
+            "company_name": "Software Co.",
+            "remote_or_onsite": "Onsite",
+            "location": "San Francisco, CA",
+            "fulltime_or_parttime": "Full-time",
+            "salary": "$120,000 - $140,000",
+            "job_description": "We are seeking a talented software engineer to join our team...",
+            "job_responsibility": "- Design and develop software solutions...",
+            "educational_requirements": "Bachelor's degree in Computer Science or related field",
+            "experiences": "5+ years of experience in software development",
+            "contact_information": {
+                  "phone": "555-555-5555",
+                  "email": "jobs@softwareco.com"
+            }
+      },
+      {
+            "id": 7,
+            "company_logo": "https://i.postimg.cc/Cx1mmPJ6/product-co-removebg-preview.png",
+            "job_title": "Product Manager",
+            "company_name": "Product Co.",
+            "remote_or_onsite": "Remote",
+            "location": "Anywhere",
+            "fulltime_or_parttime": "Full-time",
+            "salary": "$100,000 - $120,000",
+            "job_description": "We are seeking a skilled product manager to lead our team...",
+            "job_responsibility": "- Define product strategy and roadmap...",
+            "educational_requirements": "Bachelor's degree in Business or related field",
+            "experiences": "7+ years of experience in product management",
+            "contact_information": {
+                  "phone": "555-555-5555",
+                  "email": "jobs@productco.com"
+            }
+      },
+      {
+            "id": 8,
+            "company_logo": "https://i.postimg.cc/vm6RSHXj/data-co-removebg-preview.png",
+            "job_title": "Data Analyst",
+            "company_name": "Data Co.",
+            "remote_or_onsite": "Onsite",
+            "location": "Boston, MA",
+            "fulltime_or_parttime": "Full-time",
+            "salary": "$70,000 - $90,000",
+            "job_description": "We are looking for a skilled data analyst to join our team...",
+            "job_responsibility": "- Analyze and interpret data to provide insights...",
+            "educational_requirements": "Bachelor's degree in Data Science or related field",
+            "experiences": "3+ years of experience in data analysis",
+            "contact_information": {
+                  "phone": "555-555-5555",
+                  "email": "jobs@dataco.com"
+            }
+      },
+      {
+            "id": 10,
+            "company_logo": "https://i.postimg.cc/mr43KmSs/market-co-removebg-preview.png",
+            "job_title": "Marketing Manager",
+            "company_name": "Marketing Co.",
+            "remote_or_onsite": "Remote",
+            "location": "Anywhere",
+            "fulltime_or_parttime": "Full-time",
+            "salary": "$90,000 - $110,000",
+            "job_description": "We are seeking an experienced marketing manager to lead our team...",
+            "job_responsibility": "- Develop and implement marketing strategies...",
+            "educational_requirements": "Bachelor's degree in Marketing or related field",
+            "experiences": "5+ years of experience in marketing",
+            "contact_information": {
+              "phone": "555-555-5555",
+              "email": "jobs@marketingco.com"
+            }
+          },
+          {
+            "id": 11,
+            "company_logo": "https://i.postimg.cc/Bn7pPT59/HR-co-removebg-preview.png",
+            "job_title": "Human Resources Coordinator",
+            "company_name": "HR Co.",
+            "remote_or_onsite": "Onsite",
+            "location": "Los Angeles, CA",
+            "fulltime_or_parttime": "Part-time",
+            "salary": "$20 - $25 per hour",
+            "job_description": "We are looking for a part-time HR coordinator to assist our team...",
+            "job_responsibility": "- Support HR operations...",
+            "educational_requirements": "Associate's degree in Human Resources or related field",
+            "experiences": "1+ years of experience in HR",
+            "contact_information": {
+              "phone": "555-555-5555",
+              "email": "jobs@hrco.com"
+            }
+          },
+          {
+            "id": 12,
+            "company_logo": "https://i.postimg.cc/bdfp3fHk/design-co-removebg-preview.png",
+            "job_title": "Graphic Designer",
+            "company_name": "Design Co.",
+            "remote_or_onsite": "Remote",
+            "location": "Anywhere",
+            "fulltime_or_parttime": "Full-time",
+            "salary": "$60,000 - $80,000",
+            "job_description": "We are seeking a talented graphic designer to join our team...",
+            "job_responsibility": "- Create visual designs for marketing materials...",
+            "educational_requirements": "Bachelor's degree in Graphic Design or related field",
+            "experiences": "3+ years of experience in graphic design",
+            "contact_information": {
+              "phone": "555-555-5555",
+              "email": "jobs@designco.com"
+            }
+          },
+          {
+            "id": 13,
+            "company_logo": "https://i.postimg.cc/KYXQxnnZ/tech-co-removebg-preview.png",
+            "job_title": "Frontend Developer",
+            "company_name": "Tech Co.",
+            "remote_or_onsite": "Onsite",
+            "location": "New York, NY",
+            "fulltime_or_parttime": "Full-time",
+            "salary": "$90,000 - $110,000",
+            "job_description": "We are seeking a talented frontend developer to join our team...",
+            "job_responsibility": "- Develop and maintain web applications...",
+            "educational_requirements": "Bachelor's degree in Computer Science or related field",
+            "experiences": "5+ years of experience in frontend development",
+            "contact_information": {
+              "phone": "555-555-5555",
+              "email": "jobs@techco.com"
+            }
+          },
+          {
+            "id": 14,
+            "company_logo": "https://i.postimg.cc/KYXQxnnZ/tech-co-removebg-preview.png",
+            "job_title": "Backend Developer",
+            "company_name": "Tech Co.",
+            "remote_or_onsite": "Onsite",
+            "location": "New York, NY",
+            "fulltime_or_parttime": "Full-time",
+            "salary": "$100,000 - $120,000",
+            "job_description": "We are seeking a talented backend developer to join our team...",
+            "job_responsibility": "- Develop and maintain server-side applications...",
+            "educational_requirements": "Bachelor's degree in Computer Science or related field",
+            "experiences": "5+ years of experience in backend development",
+            "contact_information": {
+              "phone": "555-555-5555",
+              "email": "jobs@techco.com"
+            }
+          },
+          {
+            "id": 15,
+            "company_logo": "https://i.postimg.cc/Cx1mmPJ6/product-co-removebg-preview.png",
+            "job_title": "Product Manager",
+            "company_name": "Product Co.",
+            "remote_or_onsite": "Remote",
+            "location": "Anywhere",
+            "fulltime_or_parttime": "Full-time",
+            "salary": "$110,000 - $130,000",
+            "job_description": "We are seeking a skilled product manager to join our team...",
+            "job_responsibility": "- Develop product strategy and roadmap...",
+            "educational_requirements": "Bachelor's degree in Business or related field",
+            "experiences": "5+ years of experience in product management",
+            "contact_information": {
+              "phone": "555-555-5555",
+              "email": "jobs@productco.com"
+            }
+          },
+          {
+            "id": 16,
+            "company_logo": "https://i.postimg.cc/cHVt0VjT/sales-co-removebg-preview.png",
+            "job_title": "Sales Representative",
+            "company_name": "Sales Co.",
+            "remote_or_onsite": "Onsite",
+            "location": "Chicago, IL",
+            "fulltime_or_parttime": "Full-time",
+            "salary": "$50,000 - $70,000",
+            "job_description": "We are seeking an experienced sales representative to join our team...",
+            "job_responsibility": "- Develop and maintain relationships with clients...",
+            "educational_requirements": "Bachelor's degree in Sales or related field",
+            "experiences": "3+ years of experience in sales",
+            "contact_information": {
+              "phone": "555-555-5555",
+              "email": "jobs@salesco.com"
+            }
+          },
+          {
+            "id": 17,
+            "company_logo": "https://i.postimg.cc/yx86qn6n/service-co-removebg-preview.png",
+            "job_title": "Customer Service Representative",
+            "company_name": "Service Co.",
+            "remote_or_onsite": "Onsite",
+            "location": "Dallas, TX",
+            "fulltime_or_parttime": "Full-time",
+            "salary": "$30,000 - $40,000",
+            "job_description": "We are seeking a customer service representative to join our team...",
+            "job_responsibility": "- Assist customers with inquiries and issues...",
+            "educational_requirements": "High School diploma or equivalent",
+            "experiences": "1+ years of experience in customer service",
+            "contact_information": {
+              "phone": "555-555-5555",
+              "email": "jobs@serviceco.com"
+            }
+          },
+          {
+            "id": 18,
+            "company_logo": "https://i.postimg.cc/bdfp3fHk/design-co-removebg-preview.png",
+            "job_title": "Graphic Designer",
+            "company_name": "Design Co.",
+            "remote_or_onsite": "Onsite",
+            "location": "Los Angeles, CA",
+            "fulltime_or_parttime": "Full-time",
+            "salary": "$60,000 - $80,000",
+            "job_description": "We are seeking a creative graphic designer to join our team...",
+            "job_responsibility": "- Develop visual concepts and designs for various projects...",
+            "educational_requirements": "Bachelor's degree in Graphic Design or related field",
+            "experiences": "3+ years of experience in graphic design",
+            "contact_information": {
+              "phone": "555-555-5555",
+              "email": "jobs@designco.com"
+            }
+          },
+          {
+            "id": 19,
+            "company_logo": "https://i.postimg.cc/mr43KmSs/market-co-removebg-preview.png",
+            "job_title": "Marketing Manager",
+            "company_name": "Marketing Co.",
+            "remote_or_onsite": "Onsite",
+            "location": "San Francisco, CA",
+            "fulltime_or_parttime": "Full-time",
+            "salary": "$100,000 - $120,000",
+            "job_description": "We are seeking a strategic marketing manager to join our team...",
+            "job_responsibility": "- Develop and implement marketing campaigns...",
+            "educational_requirements": "Bachelor's degree in Marketing or related field",
+            "experiences": "5+ years of experience in marketing",
+            "contact_information": {
+              "phone": "555-555-5555",
+              "email": "jobs@marketingco.com"
+            }
+          },
+          {
+            "id": 20,
+            "company_logo": "https://i.postimg.cc/Bn7pPT59/HR-co-removebg-preview.png",
+            "job_title": "Human Resources Manager",
+            "company_name": "HR Co.",
+            "remote_or_onsite": "Onsite",
+            "location": "Seattle, WA",
+            "fulltime_or_parttime": "Full-time",
+            "salary": "$80,000 - $100,000",
+            "job_description": "We are seeking an experienced HR manager to join our team...",
+            "job_responsibility": "- Develop and implement HR policies and procedures...",
+            "educational_requirements": "Bachelor's degree in HR or related field",
+            "experiences": "3+ years of experience in HR management",
+            "contact_information": {
+              "phone": "555-555-5555",
+              "email": "jobs@hrco.com"
+            }
+          },
+          {
+            "id": 21,
+            "company_logo": "https://i.postimg.cc/FHp76fx9/it-co-removebg-preview.png",
+            "job_title": "IT Manager",
+            "company_name": "IT Co.",
+            "remote_or_onsite": "Onsite",
+            "location": "Boston, MA",
+            "fulltime_or_parttime": "Full-time",
+            "salary": "$90,000 - $110,000",
+            "job_description": "We are seeking a skilled IT manager to join our team...",
+            "job_responsibility": "- Develop and maintain IT systems and infrastructure...",
+            "educational_requirements": "Bachelor's degree in IT or related field",
+            "experiences": "5+ years of experience in IT management",
+            "contact_information": {
+              "phone": "555-555-5555",
+              "email": "jobs@itco.com"
+            }
+      }
+]

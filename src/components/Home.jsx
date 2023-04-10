@@ -5,12 +5,15 @@ import Category from './Category';
 
 const Home = () => {
       const catagories= useLoaderData();
+      // const jobs = useLoaderData();
+      // console.log(jobs);
       return (
             <div className='my-container mb-96'>
                   {/* banner section  */}
                   <Banner/>
+
                   {/* Category list  */}
-                  <div>
+                  <div className=' mt-32'>
                         <h1 className=' text-center text-4xl font-bold font-serif'>Job Category List</h1>
                         <p className=' text-center text-lg mt-2'>Explore thousands of job opportunities with all the information you need. Its your future</p>
 
@@ -24,6 +27,24 @@ const Home = () => {
                               }
                         </div>
                   </div>
+
+                  {/* jobs section  */}
+                  <div className=' mt-20'>
+                        <h1 className='text-center text-4xl font-bold font-serif'>Featured Jobs</h1>
+                        <p className='text-center text-lg mt-2'>Explore thousands of job opportunities with all the information you need. Its your future</p>
+
+                         {/* jobs  */} 
+
+                         <div>
+                              {
+
+                              }
+                         </div>
+
+
+                  </div>
+
+                 
             </div>
       );
 };

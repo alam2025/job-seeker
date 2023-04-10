@@ -2,7 +2,7 @@ import React from 'react';
 
 const Category = ({category}) => {
       const {name, picture, total_jobs}=category;
-      console.log(picture);
+      // console.log(picture);
       return (
             <div className=' bg-gray-100 rounded-lg px-4 py-8 flex flex-col justify-center items-center gap-4'>
                   <img src={picture} alt="" />
