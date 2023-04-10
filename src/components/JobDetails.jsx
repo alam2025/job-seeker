@@ -19,7 +19,6 @@ const JobDetails = () => {
       const { phone, email } = contact_information;
 
 
-      console.log(clickedJob);
 
       const handleApplyJob=id=>{
             addToDb(id)

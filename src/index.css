@@ -7,7 +7,7 @@
 }
 
 .btn-primary {
-  @apply bg-gradient-to-r from-[#7E90FE] to-[#9873FF] rounded-md px-8 py-3 text-white font-semibold hover:from-[#3043be] to-[#4a12e5] rounded-md px-8 py-3
+  @apply bg-gradient-to-r from-[#7E90FE] to-[#9873FF] rounded-md px-8 py-3 text-white font-semibold hover:from-[#3043be] to-[#4a12e5] rounded-md 
 }
 
 .primary-color {

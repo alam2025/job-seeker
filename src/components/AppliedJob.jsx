@@ -20,7 +20,7 @@ const AppliedJob = () => {
             <>
                  <div className=" text-center text-4xl font-bold lg:py-20 md:py-16 py-10 bg-gray-50 ">Applied Jobs</div>
 
-                 <div>
+                 <div className='flex flex-col gap-8 my-container'>
                         {
                               appliedJobs.map(job=><CartJob
                               key={job.id}
