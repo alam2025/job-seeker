@@ -1,5 +1,6 @@
 import React from 'react';
 import { HashLink } from 'react-router-hash-link';
+import bannerImg from '../assets/All Images/P3OLGJ1 copy 1.png'
 
 const Banner = () => {
       return (
@@ -16,7 +17,8 @@ const Banner = () => {
                   </div>
                   {/* banner image  */}
                   <div>
-                        <img src="../../public/P3OLGJ1 copy 1.png" alt="" />
+                        <img src={bannerImg} alt="" />
+                        <img src="" alt="" />
                   </div>
             </div>
       );

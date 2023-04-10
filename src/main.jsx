@@ -16,7 +16,7 @@ const router = createBrowserRouter([
     path : '/',
     element : <App></App>,
     errorElement: <ErrorPage />,
-    loader: jobsLoader,
+    loader: ()=>fetch('jobs.json'),
     children :[
       
       {
