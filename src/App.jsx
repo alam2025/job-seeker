@@ -5,14 +5,19 @@ import { Outlet, useLoaderData } from 'react-router-dom'
 
 export const jobContext = createContext([]);
 
+
 function App() {
-  const jobs = useLoaderData();
+  const jobs = useLoaderData()
+ 
 
   return (
     <div >
       <jobContext.Provider value={jobs} >
-        <Header />
-        <Outlet />
+       
+          <Header />
+          <Outlet />
+       
+
       </jobContext.Provider>
     </div>
   )

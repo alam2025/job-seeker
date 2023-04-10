@@ -9,6 +9,7 @@ import Blog from './components/Blog';
 import Statistics from './components/Statistics';
 import ErrorPage from './components/ErrorPage';
 import { categoryLoad, jobsLoader } from './components/utilities/dataLoader';
+import JobDetails from './components/JobDetails';
 
 const router = createBrowserRouter([
   {
@@ -17,14 +18,19 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     loader: jobsLoader,
     children :[
+      
       {
         path:'/',
         element:<Home></Home>,
-        loader : (categoryLoad)
+       
+        
       },
+      
+      
       {
         path : 'applied-job',
-        element : <AppliedJob/>
+        element : <AppliedJob/>,
+        
       },
       {
         path :'blog',
@@ -33,9 +39,17 @@ const router = createBrowserRouter([
       {
         path: 'statistics',
         element: <Statistics />
-      }
+      },
+      {
+        path : 'job-details/:id',
+        element: <JobDetails/> ,
+       
+        
+      },
+     
     ]
-  }
+  },
+  
 ])
 
 
