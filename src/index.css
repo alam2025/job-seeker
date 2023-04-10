@@ -7,7 +7,7 @@
 }
 
 .btn-primary {
-  @apply bg-gradient-to-r from-[#7E90FE] to-[#9873FF] rounded-md px-8 py-3 text-white font-semibold
+  @apply bg-gradient-to-r from-[#7E90FE] to-[#9873FF] rounded-md px-8 py-3 text-white font-semibold hover:from-[#3043be] to-[#4a12e5] rounded-md px-8 py-3
 }
 
 .primary-color {
@@ -16,4 +16,5 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  font-weight: 700;
 }
