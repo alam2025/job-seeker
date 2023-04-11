@@ -71,7 +71,7 @@ const Statistics = () => {
             <>
                   <div className=" text-center text-4xl font-bold lg:py-20 md:py-16 py-10 background ">Statistics</div>
 
-                  <div className="my-container w-full  h-[500px] bg-slate-200 pt-10 lg:px-20 pb-32 rounded-lg mb-32 ">
+                  <div className="my-container w-full  h-[500px] bg-slate-200 pt-10 lg:px-20 pb-32 rounded-lg mb-32 mt-4 ">
 
                         <div>
                               <h1 className='text-2xl font-bold'>Assignment Analytics</h1>

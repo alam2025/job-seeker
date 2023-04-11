@@ -20,7 +20,7 @@ const Home = () => {
       }
 
 
-      const categories =[
+      const categories = [
             {
                   "name": "Account & Finance",
                   "picture": "https://i.postimg.cc/J4hFNSNg/accounts-1.png",
@@ -44,10 +44,14 @@ const Home = () => {
       ]
 
       return (
-           
+
+            <>
+                  {/* banner section  */}
+                  <Banner />
                   <div className='my-container mb-20'>
-                        {/* banner section  */}
-                        <Banner />
+
+
+
 
                         {/* Category list  */}
                         <div className=' mt-32'>
@@ -89,7 +93,8 @@ const Home = () => {
 
 
                   </div>
-           
+            </>
+
       );
 };
 

@@ -4,7 +4,7 @@ import bannerImg from '../assets/All Images/P3OLGJ1 copy 1.png'
 
 const Banner = () => {
       return (
-            <div className=' flex flex-col md:flex-row gap-8  my-[50px]'>
+            <div className=' flex flex-col md:flex-row gap-8  py-[50px] background lg:px-[100px] px-[25px] md:px-[50px]'>
                   {/* banner text  */}
                   <div className=' flex flex-col justify-start items-start gap-6 '>
                         <h1 className='text-3xl md:text-4xl lg:text-6xl font-bold'>One Step <br /> Closer To Your <br /> <span className=' primary-color'>Dream Job</span></h1>
