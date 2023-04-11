@@ -18,7 +18,7 @@ const AppliedJob = () => {
 
       return (
             <>
-                 <div className=" text-center text-4xl font-bold lg:py-20 md:py-16 py-10 bg-gray-50 ">Applied Jobs</div>
+                 <div className=" text-center text-4xl font-bold lg:py-20 md:py-16 py-10 background ">Applied Jobs</div>
 
                  <div className='flex flex-col gap-8 my-container'>
                         {
