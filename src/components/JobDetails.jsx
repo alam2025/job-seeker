@@ -52,7 +52,7 @@ const JobDetails = () => {
                   <div className=" text-center text-4xl font-bold lg:py-20 md:py-16 py-10 bg-gray-50 ">Job Details</div>
 
                   <div className='my-20 my-container flex flex-col md:flex-row gap-6'>
-                        <div className='text-lg w-[60%]'>
+                        <div className='text-lg lg:w-[60%]'>
                               <p ><span className=' text-primary-size'>Job Description :</span> {job_description}</p> <br />
                               <p><span className=' text-primary-size'>Job Responsibility :</span> {job_responsibility}</p> <br />
                               <p><span className=' text-primary-size'>Educational Requirements :</span></p><br />
@@ -61,7 +61,7 @@ const JobDetails = () => {
                               <p>{experiences}</p>
 
                         </div>
-                        <div className=' divide-y-2 background flex flex-col gap-6 p-10 rounded-md w-[40%]'>
+                        <div className=' divide-y-2 background flex flex-col gap-6 p-10 rounded-md lg:w-[40%]'>
                               <h1 className=' text-primary-size '>Job Details</h1>
                               <div className=' flex flex-col gap-4 my-2'>
                                     <p><span className='font-bold mt-3'>Salary :</span> {salary}</p>
