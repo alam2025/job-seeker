@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons'
 import React from 'react';
 
-import { Bar, BarChart, CartesianGrid, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
+import {  Area, AreaChart, CartesianGrid, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 
 
 
@@ -85,7 +85,7 @@ const Statistics = () => {
                         </div>
 
                         <ResponsiveContainer>
-                              <BarChart
+                              <AreaChart
 
                                     data={data}
                                     margin={{
@@ -102,9 +102,9 @@ const Statistics = () => {
                                     <Tooltip />
                                     <Legend />
 
-                                    <Bar dataKey="mark" fill="#8884d8" />
+                                    <Area dataKey="mark" fill="#8884d8" />
 
-                              </BarChart>
+                              </AreaChart>
                         </ResponsiveContainer>
                         
                   </div >
