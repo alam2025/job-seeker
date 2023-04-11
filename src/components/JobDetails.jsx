@@ -3,6 +3,7 @@ import { json, useParams } from 'react-router-dom';
 import { useLoaderData } from 'react-router-dom';
 import { jobContext } from '../App';
 import { addToDb, getShoppingCart } from './utilities/fakedb';
+import { Toaster, toast } from 'react-hot-toast';
 
 
 const JobDetails = () => {
@@ -22,18 +23,23 @@ const JobDetails = () => {
       const appliedJobs = getShoppingCart();
       console.log(appliedJobs);
       const handleApplyJob = id => {
-            if(JSON.stringify(appliedJobs)==='{}'){
+            let exit;
+            if (JSON.stringify(appliedJobs) === '{}') {
                   addToDb(id)
+                  toast.success('Successfully Applied !!!')
             }
-            else{
-                  for(const jid in appliedJobs)
-                  {
-                        if(parseInt(jid) === id){
-                              console.log('already ');
+            else {
+                  for (const jid in appliedJobs) {
+                        if (parseInt(jid) === id) {
+                              exit = id;
                         }
-                        else{
-                              addToDb(id)
-                        }
+                  }
+                  if (exit) {
+                        toast.error("Aready Applied this Job !!!")
+                  }
+                  else {
+                        addToDb(id)
+                        toast.success('Successfully Applied !!!')
                   }
             }
 
@@ -70,6 +76,7 @@ const JobDetails = () => {
 
                         </div>
                   </div>
+                  <Toaster />
             </>
       );
 };

@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState } from 'react';
+import React, { createContext, useContext, useEffect, useState } from 'react';
 import Banner from './Banner';
 import { Link, useLoaderData } from 'react-router-dom';
 import Category from './Category';
@@ -6,42 +6,30 @@ import { jobContext } from '../App';
 import Job from './Job';
 
 
-
-
-
 const Home = () => {
       let jobs = useContext(jobContext)
+
+      //slice array
       const [clip, setclip] = useState(true);
       clip === true ? jobs = jobs.slice(0, 4) : jobs;
-
-
       const handleSeeBtn = () => {
             setclip(false)
       }
 
+      //load catagories
+      const [categories, setCategory]=useState([])
 
-      const categories = [
-            {
-                  "name": "Account & Finance",
-                  "picture": "https://i.postimg.cc/J4hFNSNg/accounts-1.png",
-                  "total_jobs": 150
-            },
-            {
-                  "name": "Creative Design",
-                  "picture": "https://i.postimg.cc/266Wcd0z/business-1.png",
-                  "total_jobs": 80
-            },
-            {
-                  "name": "Marketing & Sales",
-                  "picture": "https://i.postimg.cc/qvvCMxd2/social-media-1.png",
-                  "total_jobs": 250
-            },
-            {
-                  "name": "Engineering Job",
-                  "picture": "https://i.postimg.cc/Vstq3gY6/chip-1.png",
-                  "total_jobs": 300
-            }
-      ]
+      useEffect(()=>{
+            fetch('/job-categories.json')
+            .then(res=>res.json())
+            .then(data=>{
+                  if(data)
+                  {
+                        setCategory(data)
+                  }
+            })
+      },[])
+
 
       return (
 

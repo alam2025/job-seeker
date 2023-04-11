@@ -2,9 +2,13 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot, faMoneyBillAlt } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom';
+import { removeFromDb } from './utilities/fakedb';
 
-const CartJob = ({ job }) => {
+const CartJob = ({ job ,handleRemove}) => {
       const { company_logo, company_name, job_title, fulltime_or_parttime, remote_or_onsite, salary, location, id } = job
+   
+
+     
 
       return (
             <div className=' flex flex-col lg:flex-row md:pb-8 lg:pb-1 justify-between items-center border rounded-md shadow-sm gap-6'>
@@ -29,6 +33,7 @@ const CartJob = ({ job }) => {
                         <Link className='btn-primary mr-6' to={`./../job-details/${id}`}>
                               View Details
                         </Link>
+                        <button onClick={()=>handleRemove(id)} className=' text-[#000] hover:font-bold hover:outline px-2 py-1 rounded'>Remove</button>
 
                   </div>
             </div>

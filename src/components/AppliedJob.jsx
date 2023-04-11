@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react';
-import { getShoppingCart } from './utilities/fakedb';
+import { getShoppingCart, removeFromDb } from './utilities/fakedb';
 import { jobContext } from '../App';
 import CartJob from './CartJob';
 
@@ -23,7 +23,14 @@ const AppliedJob = () => {
       function handleFilterChange(event) {
             setSelectedFilter(event.target.value);
       }
-     
+
+      const handleRemove=(id)=>{
+            removeFromDb(id);
+            const remainng = filteredJobs.filter(j=>j.id !== id);
+            setSelectedFilter(remainng)
+            
+      }
+
 
 
       return (
@@ -43,13 +50,16 @@ const AppliedJob = () => {
 
 
 
-                        {
-                              filteredJobs.map(job => <CartJob
-                                    key={job.id}
-                                    job={job}
+                        <div className=' flex  flex-col gap-10 mb-20'>
+                              {
+                                    filteredJobs.map(job => <CartJob
+                                          key={job.id}
+                                          job={job}
+                                          handleRemove={handleRemove}
 
-                              />)
-                        }
+                                    />)
+                              }
+                        </div>
                   </div>
             </>
       );
