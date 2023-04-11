@@ -58,7 +58,7 @@ const Home = () => {
                         </div>
 
                         {/* jobs section  */}
-                        <div className=' mt-20' id='section1'>
+                        <div className=' mt-20' id='jobs'>
                               <h1 className='text-center text-4xl font-bold font-serif'>Featured Jobs</h1>
                               <p className='text-center text-lg mt-2'>Explore thousands of job opportunities with all the information you need. Its your future</p>
 

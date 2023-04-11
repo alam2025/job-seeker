@@ -33,7 +33,7 @@ const Header = () => {
                         </ul>
                   </div>
 
-                  <HashLink smooth to="/#section1" className="navbar-end">
+                  <HashLink smooth to="/#jobs" className="navbar-end">
                         <p className="btn">Start Apply</p>
                   </HashLink>
 

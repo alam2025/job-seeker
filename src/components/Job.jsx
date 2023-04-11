@@ -15,7 +15,7 @@ const Job = ({ job }) => {
       // }
      
       return (
-            <div className=' p-10 border shadow-sm rounded-md flex flex-col gap-3 items-start justify-start'>
+            <div className=' p-10 border  shadow-sm rounded-md flex flex-col gap-3  justify-center items-center'>
                   <img src={company_logo} alt="company logo" className=' h-[68px]' />
                   <h1 className=' text-[24px] font-bold font-sans'>{job_title}</h1>
                   <h4 className='text-[#757575] font-serif'>{company_name}</h4>

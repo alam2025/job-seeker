@@ -20,9 +20,10 @@ const JobDetails = () => {
       const { phone, email } = contact_information;
 
 
-      const appliedJobs = getShoppingCart();
-      console.log(appliedJobs);
+      
+     
       const handleApplyJob = id => {
+            const appliedJobs = getShoppingCart();
             let exit;
             if (JSON.stringify(appliedJobs) === '{}') {
                   addToDb(id)
