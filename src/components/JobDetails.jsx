@@ -1,8 +1,8 @@
 import React, { useContext } from 'react';
-import { useParams } from 'react-router-dom';
+import { json, useParams } from 'react-router-dom';
 import { useLoaderData } from 'react-router-dom';
 import { jobContext } from '../App';
-import { addToDb } from './utilities/fakedb';
+import { addToDb, getShoppingCart } from './utilities/fakedb';
 
 
 const JobDetails = () => {
@@ -15,13 +15,28 @@ const JobDetails = () => {
       if (myJob) {
             clickedJob = myJob;
       }
-      const {job_description, job_responsibility, educational_requirements, experiences, salary, job_title, contact_information, location } = clickedJob;
+      const { job_description, job_responsibility, educational_requirements, experiences, salary, job_title, contact_information, location } = clickedJob;
       const { phone, email } = contact_information;
 
 
+      const appliedJobs = getShoppingCart();
+      console.log(appliedJobs);
+      const handleApplyJob = id => {
+            if(JSON.stringify(appliedJobs)==='{}'){
+                  addToDb(id)
+            }
+            else{
+                  for(const jid in appliedJobs)
+                  {
+                        if(parseInt(jid) === id){
+                              console.log('already ');
+                        }
+                        else{
+                              addToDb(id)
+                        }
+                  }
+            }
 
-      const handleApplyJob=id=>{
-            addToDb(id)
       }
 
 
@@ -50,7 +65,7 @@ const JobDetails = () => {
                                     <p><span className='font-bold'> Phone :</span> {phone}</p>
                                     <p><span className='font-bold'>Email :</span> {email}</p>
                                     <p><span className='font-bold'>Address :</span> {location}</p>
-                                    <button onClick={()=>handleApplyJob(clickedJob.id)} className='btn-primary'>Apply Now</button>
+                                    <button onClick={() => handleApplyJob(clickedJob.id)} className='btn-primary'>Apply Now</button>
                               </div>
 
                         </div>

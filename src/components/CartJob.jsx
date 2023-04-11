@@ -26,7 +26,7 @@ const CartJob = ({ job }) => {
 
                   </div>
                   <div>
-                        <Link className='btn-primary' to={`./../job-details/${id}`}>
+                        <Link className='btn-primary mr-6' to={`./../job-details/${id}`}>
                               View Details
                         </Link>
 
